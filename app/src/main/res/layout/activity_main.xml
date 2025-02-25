@@ -18,6 +18,8 @@
     </LinearLayout>
 
 
+
+
     <!-- Título -->
     <TextView
         android:id="@+id/tvTitle"
@@ -26,19 +28,20 @@
         android:background="#D9A8FF"
         android:text="StudyUS"
         android:textColor="#4D1867"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
 
     <!-- Imagen del logo -->
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="332dp"
         android:layout_height="338dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_logo"
@@ -53,11 +56,11 @@
         android:id="@+id/btnEnter"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="30dp"
         android:backgroundTint="#D9A8FF"
         android:text="Entrar"
         android:textColor="#4D1867"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
