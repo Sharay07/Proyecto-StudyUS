@@ -12,9 +12,9 @@
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:background="#D9A8FF"
-        android:text="AÑADIR"
+        android:text="CRITERIOS EVALUACIÓN"
         android:textColor="#4D1867"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,106 +39,32 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Nombre Asignatura -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="  Nombre Asignatura"
-                android:textColor="#4D1867"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"/>
-
             <EditText
                 android:id="@+id/etNombreAsignatura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:drawable/edit_text"
-                android:hint="  Ingrese el nombre"
-                android:padding="8dp"/>
+                android:hint="  Escriba aquí los creiterios de evaluación"
+                android:padding="100dp"/>
 
-            <!-- Nombre Profesor -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="  Nombre Profesor"
-                android:textColor="#4D1867"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
-
-            <EditText
-                android:id="@+id/etNombreProfesor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:drawable/edit_text"
-                android:hint="  Ingrese el profesor"
-                android:padding="8dp"/>
-
-            <!-- Créditos -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="  Créditos"
-                android:textColor="#4D1867"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
-
-            <EditText
-                android:id="@+id/etCreditos"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:drawable/edit_text"
-                android:hint="  Número de créditos"
-                android:inputType="number"
-                android:padding="8dp"/>
-
-            <!-- Selector de Color -->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="  Color "
-                android:textColor="#4D1867"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
-
-            <!-- Spinner para elegir el color -->
-            <Spinner
-                android:id="@+id/spinnerColor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:drawable/spinner_dropdown_background"/>
-
-            <!-- Botón Criterios de Evaluación -->
-            <Button
-                android:id="@+id/btnCriterios"
-                android:layout_width="300dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="#C8A2C8 "
-                android:text="Criterios de Evaluación"
-                android:textColor="#FFFFFF"
-                android:onClick="abrirCriterios"
-                android:textSize="18sp"/>
-
-            <!-- Botón Guardar -->
+            <!-- Botón Modificar -->
             <Button
                 android:id="@+id/btnGuardar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
                 android:backgroundTint="#4D1867"
                 android:onClick="guardarFormulario"
-                android:text="Añadir"
+                android:text="Modificar"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+
 
 
     <!-- Barra de navegación inferior -->
