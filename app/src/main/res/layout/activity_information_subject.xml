@@ -145,32 +145,32 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
-            android:layout_width="40dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_weight="1"
-            android:src="@drawable/ic_calender"
-            android:tint="#FFFFFF"/>
+            android:src="@drawable/ic_house"
+            android:contentDescription="Editar"
+            android:layout_weight="1"/>
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="Calendario"
+            android:src="@drawable/ic_calender" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:src="@drawable/ic_horario"
-            android:tint="#FFFFFF"/>
+            android:contentDescription="Horario"
+            android:layout_weight="1"/>
 
         <ImageView
-            android:layout_width="40dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_weight="1"
             android:src="@drawable/ic_clock"
-            android:tint="#FFFFFF"/>
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:src="@drawable/ic_pen"
-            android:tint="#FFFFFF"/>
+            android:contentDescription="Reloj"
+            android:layout_weight="1"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
