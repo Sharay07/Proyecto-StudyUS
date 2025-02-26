@@ -1,4 +1,4 @@
-Poryecto para la asignatura de CM
+Proyecto para la asignatura de CM
 
 Aplicación movil para organizar el estudio de universitarios.
 
